@@ -20,7 +20,7 @@ tree = app_commands.CommandTree(client)
 
 @tree.command(guild = discord.Object(id=settings.GUILD), name="source", description="check mon code")
 async def self(interaction: discord.Interaction):
-    await interaction.response.send_message("mon papa c'est s0ca et voila son boulot https://github.com/s0ca")
+    await interaction.response.send_message("mon papa c'est s0ca et voila mon code https://github.com/s0ca/PollBot")
 
 @tree.command(guild = discord.Object(id=settings.GUILD), name="ping", description="pong!")
 async def self(interaction: discord.Interaction):
